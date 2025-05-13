@@ -7,25 +7,19 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
   <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring"/>
-  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </div>
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
-### 🔨 Fundamentos (foundations)
+### Fundamentos (foundations)
 
-### 🔧 Backend (próximamente)
+### Backend (próximamente)
 
+### Frontend (próximamente)
 
-### 🎨 Frontend (próximamente)
+### Proyectos Fullstack (próximamente)
 
-
-### 🚀 Proyectos Fullstack (próximamente)
-
-## 💻 Tecnologías
+## Tecnologías y Herramientas
 
 <div align="center">
   <table>
@@ -48,6 +42,7 @@
         <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring"/>
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
         <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+        <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="Swagger"/>
       </td>
     </tr>
     <tr>
@@ -55,6 +50,7 @@
       <td>
         <img src="https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
         <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
+        <img src="https://img.shields.io/badge/H2-0000BB?style=flat-square&logo=h2&logoColor=white" alt="H2 Database"/>
       </td>
     </tr>
     <tr>
@@ -63,12 +59,15 @@
         <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
         <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white" alt="Maven"/>
+        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+        <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white" alt="Eclipse"/>
+        <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman"/>
       </td>
     </tr>
   </table>
 </div>
 
-## 📝 Contacto
+## Contacto
 
 <div align="center">
   <a href="https://www.linkedin.com/in/tu-perfil/" target="_blank">
@@ -82,7 +81,7 @@
   </a>
 </div>
 
-## 📄 Licencia
+## Licencia
 
 <div align="center">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"/>
