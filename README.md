@@ -104,9 +104,4 @@
 
 
 ## Licencia
-
-<div align="center">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"/>
-</div>
-
 Este proyecto está disponible como código abierto bajo la licencia MIT.
