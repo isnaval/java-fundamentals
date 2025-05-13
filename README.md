@@ -17,37 +17,13 @@
 
 ### 🔨 Fundamentos (foundations)
 
-Esta sección contiene ejercicios fundamentales de programación para fortalecer las bases del desarrollo:
-
-- **java_core**: Conceptos clave de Java (arrays, conditionals, loops, methods, strings)
-- **java_core_basic**: Ejercicios básicos introductorios
-- **java_oop**: Introducción a la Programación Orientada a Objetos
-
 ### 🔧 Backend (próximamente)
 
-Proyectos enfocados en:
-- APIs RESTful
-- Bases de datos SQL y NoSQL
-- Arquitecturas de microservicios
-- Spring Boot / Node.js
-- Seguridad y autenticación
 
 ### 🎨 Frontend (próximamente)
 
-Proyectos de:
-- HTML5, CSS3, JavaScript moderno
-- React / Angular / Vue
-- Responsive Design
-- Accesibilidad web
-- UI/UX
 
 ### 🚀 Proyectos Fullstack (próximamente)
-
-Aplicaciones completas integrando backend y frontend:
-- Aplicaciones web
-- Sistemas de gestión
-- E-commerce
-- Aplicaciones móviles híbridas
 
 ## 💻 Tecnologías
 
