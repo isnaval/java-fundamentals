@@ -13,6 +13,8 @@ public class Basic_NumberAnalyzerCalculator {
 
 		analyseNumber(number1, "primero");
 		analyseNumber(number2, "primero");
+		
+		scanner.close();
 
 	}
 

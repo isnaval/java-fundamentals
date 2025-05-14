@@ -18,6 +18,8 @@ public class SumaMethodsDemo {
 		doWhileMethod(number1, number2);
 		forMethdo(number1, number2);
 
+		scanner.close();
+
 	}
 
 	public static void verificacionNumbers(int number1, int number2) {
@@ -31,7 +33,6 @@ public class SumaMethodsDemo {
 
 	};
 
-	@SuppressWarnings("unused")
 	public static void whileMethod(int number1, int number2) {
 		int suma = 0;
 		int i = number1;

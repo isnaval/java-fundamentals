@@ -4,3 +4,4 @@
 "*.jar" 
 "# Logs" 
 "*.log" 
+/bin/
