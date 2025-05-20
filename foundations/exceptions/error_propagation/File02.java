@@ -1,4 +1,4 @@
-package error_propagation;
+package exceptions.error_propagation;
 
 public class File02 {
 	public String method() {

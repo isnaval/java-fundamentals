@@ -1,11 +1,9 @@
-package java_opp.basics.student_system;
+package java_oop.basics.student_system;
 
 public class Persona {
-	
-	protected String nombre; 
-	private int edad;
-	
 
+	protected String nombre;
+	private int edad;
 
 	public Persona(String nombre, int edad) {
 
@@ -13,31 +11,21 @@ public class Persona {
 		this.edad = edad;
 	}
 
-
-
 	public String getNombre() {
 		return nombre;
 	}
-
-
 
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
-
-
 	public int getEdad() {
 		return edad;
 	}
 
-
-
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-
-
 
 	@Override
 	public String toString() {

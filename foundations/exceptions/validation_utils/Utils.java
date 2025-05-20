@@ -1,4 +1,4 @@
-package validation_utils;
+package exceptions.validation_utils;
 
 public class Utils {
 

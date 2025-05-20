@@ -1,11 +1,11 @@
-package java_opp.basics.student_system;
+package java_oop.basics.student_system;
 
 public class Coche implements Printable {
-	
+
 	private String marca;
-	private String modelo; 
+	private String modelo;
 	private String color;
-	
+
 	public Coche(String marca, String modelo, String color) {
 		super();
 		this.marca = marca;
@@ -35,18 +35,14 @@ public class Coche implements Printable {
 
 	public void setColor(String color) {
 		this.color = color;
-	} 
-	
-    public String getTitulo() {
-        return "FICHA DE VEHÍCULO";
-    }
-    
-    public String getResumen() {
-        return "Marca: " + marca + "\n" +
-               "Modelo: " + modelo + "\n" +
-               "Color: " + color;
-    }
-	
-	
+	}
+
+	public String getTitulo() {
+		return "FICHA DE VEHÍCULO";
+	}
+
+	public String getResumen() {
+		return "Marca: " + marca + "\n" + "Modelo: " + modelo + "\n" + "Color: " + color;
+	}
 
 }

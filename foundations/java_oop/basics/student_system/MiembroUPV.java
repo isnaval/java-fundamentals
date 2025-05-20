@@ -1,7 +1,7 @@
-package java_opp.basics.student_system;
+package java_oop.basics.student_system;
 
 public abstract class MiembroUPV extends Persona {
-	
+
 	private String carnet;
 
 	public MiembroUPV(String nombre, int edad, String carnet) {
@@ -17,6 +17,6 @@ public abstract class MiembroUPV extends Persona {
 		this.carnet = carnet;
 	}
 
-	public void menuIntranet() {		
-	} 
+	public void menuIntranet() {
+	}
 }

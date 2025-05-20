@@ -1,10 +1,9 @@
-package java_opp.basics.student_system;
+package java_oop.basics.student_system;
 
-public class Estudiante extends MiembroUPV implements Printable{
+public class Estudiante extends MiembroUPV implements Printable {
 
-
-	private int expediente; 
-	private String cursoActual; 
+	private int expediente;
+	private String cursoActual;
 	private String asignaturas[];
 	private float notas[];
 
@@ -43,16 +42,16 @@ public class Estudiante extends MiembroUPV implements Printable{
 	public void setNotas(float[] notas) {
 		this.notas = notas;
 	}
-	
+
 	@Override
 	public void menuIntranet() {
-		
-		 System.out.println("Intranet Estudiante");
-	        System.out.println("---------------------------------");
-	        System.out.println("1. Ver Expediente");
-	        System.out.println("2. Inscripcion Actividades Deportivas");
-	        System.out.println("---------------------------------\n");
-		
+
+		System.out.println("Intranet Estudiante");
+		System.out.println("---------------------------------");
+		System.out.println("1. Ver Expediente");
+		System.out.println("2. Inscripcion Actividades Deportivas");
+		System.out.println("---------------------------------\n");
+
 	}
 
 	@Override
@@ -62,8 +61,8 @@ public class Estudiante extends MiembroUPV implements Printable{
 
 	@Override
 	public String getResumen() {
-		return "Nombre: " + this.getNombre() + "\n" + "Edad: " + this.getEdad() + "\n" + "Carnet: " + this.getCarnet() + "\n" + "Curso: " + this.getCursoActual();
+		return "Nombre: " + this.getNombre() + "\n" + "Edad: " + this.getEdad() + "\n" + "Carnet: " + this.getCarnet()
+				+ "\n" + "Curso: " + this.getCursoActual();
 	}
-	
 
 }
