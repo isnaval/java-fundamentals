@@ -1,4 +1,4 @@
-package java_opp.basics.bar_order_system;
+package java_oop.basics.bar_order_system;
 
 public class MainBar {
 	public static void main (String[] args) {

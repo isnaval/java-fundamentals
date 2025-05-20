@@ -1,8 +1,9 @@
-package java_opp.basics.bar_order_system;
+package java_oop.basics.bar_order_system;
 
 import java.util.Arrays;
 
 public class Order {
+	
 	private Client client; 
 	private Drink[] drinks;
 	private int numberOfDrinks; 

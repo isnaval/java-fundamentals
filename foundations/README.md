@@ -1,10 +1,7 @@
 ```
 foundations/
 ├── collections.hashmap.voting_system/
-│   ├── Main.java
-│   ├── Votation.java
-│   ├── VotationCounter.java
-│   └── VoteOption.java
+├── exceptions.files/
 ├── java_core_basic/
 │   ├── Basic_Math_Operations.java
 │   ├── Basic_NumberAnalyzerCalculator.java
@@ -28,17 +25,6 @@ foundations/
 │   ├── CharacterFinder.java
 │   └── PasswordValidator.java
 ├── java_oop.basic.bar_order_system/
-│   ├── Client.java
-│   ├── Drink.java
-│   ├── DrinkManager.java
-│   ├── Drinks.java
-│   ├── MainBar.java
-│   ├── Order.java
-│   └── README.md
 ├── java_oop.basic.discount_system/
-│   ├── DiscountCalculatorInterface.java
-│   ├── FixedDiscountCalculator.java
-│   ├── PercentageDiscountCalculator.java
-│   └── Main.java
 └── README.md
 ```

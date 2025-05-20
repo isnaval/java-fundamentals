@@ -1,4 +1,4 @@
-package java_opp.basics.bar_order_system;
+package java_oop.basics.bar_order_system;
 
 public class DrinkManager {
 	
@@ -33,7 +33,7 @@ public class DrinkManager {
 	public void displayOrderInformation(Order order) {
 		System.out.println("Información del pedido: ");
 		System.out.println("Ciente: " + order.getClient().getName());
-		System.out.println("Drinks");
+		System.out.println("Bebidas: ");
 		
         if (order.getNumberOfDrinks() > 0) {
             for (int i = 0; i < order.getNumberOfDrinks(); i++) {
@@ -59,13 +59,13 @@ public class DrinkManager {
 		
 	}
 
-	public boolean removeDrinkByIndes( Order order, int index) {
+	public boolean removeDrinkByIndex( Order order, int index) {
 		if (index <0 || index >= order.getNumberOfDrinks()) {
 			System.out.println("Indice no valido");
 			return false; 
 		} 
 		for (int i = index; i < order.getNumberOfDrinks() - 1; i++) {
-			order.getDrinks()[i] = order.getDrinks() [1 + 1];
+			order.getDrinks()[i] = order.getDrinks() [i + 1];
 		}
 		order.getDrinks()[order.getNumberOfDrinks()-1] = null;
 		order.setNumberOfDrinks(order.getNumberOfDrinks()-1);

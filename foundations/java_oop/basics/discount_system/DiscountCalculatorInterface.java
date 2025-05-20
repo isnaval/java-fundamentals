@@ -1,4 +1,4 @@
-package java_opp.basics.discount_system;
+package java_oop.basics.discount_system;
 
 public interface DiscountCalculatorInterface {
 	

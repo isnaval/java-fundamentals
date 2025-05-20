@@ -1,4 +1,4 @@
-package java_opp.basics.bar_order_system;
+package java_oop.basics.bar_order_system;
 
 	public enum Drinks {
 	    COFFEE("Café", 1.50, false),
@@ -43,5 +43,6 @@ package java_opp.basics.bar_order_system;
 	        return name + " - " + String.format("%.2f €", price) + 
 	               (containsAlcohol ? " (contiene alcohol)" : "");
 	    }
-	
+
+
 }
