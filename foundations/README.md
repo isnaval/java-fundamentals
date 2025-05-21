@@ -16,6 +16,7 @@
         └── basics\
             ├── bar_order_system\
             ├── discount_system\
-            └── student_system\
+            ├── student_system_1\
+            └── student_system_2\
 
 ```

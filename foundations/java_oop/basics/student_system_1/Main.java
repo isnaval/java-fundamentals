@@ -1,4 +1,4 @@
-package java_oop.basics.student_system;
+package java_oop.basics.student_system_1;
 
 /**
  * los principales conceptos que hemos analizado son los siguientes: - Herencia:
