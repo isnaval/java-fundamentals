@@ -8,18 +8,13 @@
     │   └── validation_utils/
     ├── java_core/
     │   ├── arrays/
-    │   │   ├── basic_operations/
     │   │   │   └── ArrayAverageCalculator.java
-    │   │   ├── filtering/
     │   │   │   └── NumberArrayFilter.java
-    │   │   └── matrices/
     │   │       └── SymmetricMatrixChecker.java
     │   ├── conditionals/
     │   ├── games/
     │   │   ├── number_guessing_game/
-    │   │   │   └── NumberGuessingGame.java
     │   │   └── word_guessing_game/
-    │   │       └── WordGuessingGame.java
     │   ├── generics/
     │   │   └── container/
     │   ├── loops/
