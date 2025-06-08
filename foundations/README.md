@@ -19,6 +19,8 @@
     │
     ├── java_core/
     │   ├── arrays/
+    │   │   ├── conditional_filtering/     
+    │   │   └── reservation_system/       
     │   ├── conditionals/
     │   │   ├── grade_calculator/
     │   │   ├── tax_calculator/
@@ -27,7 +29,8 @@
     │   │   ├── number_guessing_game/
     │   │   ├── word_guessing_game/
     │   │   ├── rock_paper_scissors/
-    │   │   └── tic_tac_toe/
+    │   │   ├── tic_tac_toe/
+    │   │   └── treasure_hunt/            
     │   ├── generics/
     │   │   ├── container/
     │   │   ├── pair/
