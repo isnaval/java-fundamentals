@@ -24,26 +24,28 @@ public class MainArrayUser {
 				addNewUser(scanner, userService);
 				break;
 			case 3:
-				userService.showStats();
+				showAllUsers(userService);
 				break;
 			case 4:
-				checkUserExists(scanner, userService);
+				userService.showStats();
 				break;
 			case 5:
-				testExceptionHandling(userService);
+				checkUserExists(scanner, userService);
 				break;
 			case 6:
+				testExceptionHandling(userService);
+				break;
+			case 7:
 				System.out.println("👋 ¡Hasta luego!");
 				scanner.close();
 				return;
 			default:
-				System.out.println("❌ Opción no válida. Por favor, selecciona una opción del 1 al 6.");
+				System.out.println("❌ Opción no válida. Por favor, selecciona una opción del 1 al 7.");
 			}
 
 			System.out.println("\n⏸️  Presiona Enter para continuar...");
 			scanner.nextLine();
 		}
-
 	}
 
 	private static void showMenu() {
@@ -52,10 +54,11 @@ public class MainArrayUser {
 		System.out.println("=".repeat(40));
 		System.out.println("1. 🔍 Buscar usuario por ID");
 		System.out.println("2. ➕ Agregar nuevo usuario");
-		System.out.println("3. 📊 Mostrar estadísticas");
-		System.out.println("4. ✅ Verificar si existe usuario");
-		System.out.println("5. 🧪 Probar manejo de excepciones");
-		System.out.println("6. 🚪 Salir");
+		System.out.println("3. 📋 Mostrar todos los usuarios");
+		System.out.println("4. 📊 Mostrar estadísticas");
+		System.out.println("5. ✅ Verificar si existe usuario");
+		System.out.println("6. 🧪 Probar manejo de excepciones");
+		System.out.println("7. 🚪 Salir");
 		System.out.println("=".repeat(40));
 		System.out.print("➡️  Selecciona una opción: ");
 	}
@@ -70,28 +73,75 @@ public class MainArrayUser {
 
 	private static void findUserById(Scanner scanner, UserService userService) {
 		System.out.print("🆔 Ingresa el ID del usuario: ");
+		String input = scanner.nextLine().trim();
+
+		if (input.isEmpty()) {
+			System.out.println("❌ Error: No ingresaste ningún valor");
+			return;
+		}
+
 		try {
-			int id = Integer.parseInt(scanner.nextLine());
+			int id = Integer.parseInt(input);
 			String user = userService.getUserById(id);
 			System.out.println("✅ Usuario encontrado: " + user);
 		} catch (NumberFormatException e) {
-			System.out.println("❌ Error: Debes ingresar un número válido");
+			System.out.println("❌ Error: '" + input + "' no es un número válido");
 		} catch (UserNotFoundException e) {
 			System.out.println("❌ " + e.getMessage());
-			System.out.println("💡 Intenta con un ID entre 0 y 5 (usuarios predefinidos)");
+			System.out.println("💡 Primero agrega algunos usuarios con la opción 2");
 		}
 	}
 
 	private static void addNewUser(Scanner scanner, UserService userService) {
 		System.out.print("👤 Ingresa el nombre del nuevo usuario: ");
-		String username = scanner.nextLine();
-		userService.addNewUser(username);
+		String username = scanner.nextLine().trim();
+
+		if (username.isEmpty()) {
+			System.out.println("❌ Error: No ingresaste ningún nombre");
+			return;
+		}
+
+		int assignedId = userService.getUserCount();
+
+		try {
+			userService.addNewUser(username);
+			System.out.println("✅ Usuario '" + username + "' agregado correctamente con ID: " + assignedId);
+		} catch (Exception e) {
+			System.out.println("❌ No se pudo agregar el usuario");
+		}
+	}
+
+	private static void showAllUsers(UserService userService) {
+		System.out.println("👥 === LISTA DE TODOS LOS USUARIOS ===");
+
+		int totalUsers = userService.getUserCount();
+		if (totalUsers == 0) {
+			System.out.println("📭 No hay usuarios registrados en el sistema");
+			System.out.println("💡 Usa la opción 2 para agregar usuarios");
+			return;
+		}
+
+		String[] allUsers = userService.getAllUsers();
+		System.out.println("📊 Total de usuarios: " + totalUsers + "\n");
+
+		for (int i = 0; i < allUsers.length; i++) {
+			System.out.println("  🆔 ID: " + i + " | 👤 Nombre: " + allUsers[i]);
+		}
+
+		System.out.println("\n" + "=".repeat(40));
 	}
 
 	private static void checkUserExists(Scanner scanner, UserService userService) {
 		System.out.print("🔍 Ingresa el ID a verificar: ");
+		String input = scanner.nextLine().trim();
+
+		if (input.isEmpty()) {
+			System.out.println("❌ Error: No ingresaste ningún valor");
+			return;
+		}
+
 		try {
-			int id = Integer.parseInt(scanner.nextLine());
+			int id = Integer.parseInt(input);
 			boolean exists = userService.userExists(id);
 
 			if (exists) {
@@ -100,16 +150,16 @@ public class MainArrayUser {
 				System.out.println("❌ El usuario con ID " + id + " NO existe");
 			}
 		} catch (NumberFormatException e) {
-			System.out.println("❌ Error: Debes ingresar un número válido");
+			System.out.println("❌ Error: '" + input + "' no es un número válido");
 		}
 	}
 
 	private static void testExceptionHandling(UserService userService) {
 		System.out.println("🧪 === PRUEBAS DE MANEJO DE EXCEPCIONES ===");
 
-		System.out.println("\n1️⃣ Buscando usuario existente (ID: 1):");
+		System.out.println("\n1️⃣ Buscando usuario existente (ID: 0):");
 		try {
-			String user = userService.getUserById(1);
+			String user = userService.getUserById(0);
 			System.out.println("   ✅ Encontrado: " + user);
 		} catch (UserNotFoundException e) {
 			System.out.println("   ❌ " + e.getMessage());
@@ -138,5 +188,4 @@ public class MainArrayUser {
 
 		System.out.println("\n✨ Todas las pruebas completadas");
 	}
-
 }
