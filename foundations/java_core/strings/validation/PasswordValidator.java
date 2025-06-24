@@ -1,4 +1,4 @@
-package java_core.strings;
+package java_core.strings.validation;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class PasswordValidator {
 		final String PASSWORD = "Password";
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Escribe una contraseña: ");
+		System.out.println("Escribe una contraseña:(Password) ");
 		String password = scanner.nextLine();
 
 		int count = 1;
