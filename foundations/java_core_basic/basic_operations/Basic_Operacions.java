@@ -2,7 +2,7 @@ package java_core_basic.basic_operations;
 
 import java.util.Scanner;
 
-public class basic_Operacions {
+public class Basic_Operacions {
 	public static void main(String[] args) {
 		// Concatenación
 		String name = "nombre ";
