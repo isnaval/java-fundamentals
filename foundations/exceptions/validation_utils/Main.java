@@ -8,7 +8,6 @@ public class Main {
 
 		System.out.println("=== CALCULADORA CON VALIDACIÓN DE EXCEPCIONES ===\n");
 
-		// Probar división
 		try {
 			System.out.print("Ingrese numerador para división: ");
 			double numerator = scanner.nextDouble();
@@ -22,7 +21,6 @@ public class Main {
 			System.out.println("Error en división: " + e.getMessage());
 		}
 
-		// Probar suma
 		try {
 			System.out.print("\nIngrese primer número para suma: ");
 			int num1 = scanner.nextInt();
@@ -36,7 +34,6 @@ public class Main {
 			System.out.println("Error en suma: " + e.getMessage());
 		}
 
-		// Probar raíz cuadrada
 		try {
 			System.out.print("\nIngrese número para calcular raíz cuadrada: ");
 			double value = scanner.nextDouble();
@@ -47,15 +44,12 @@ public class Main {
 			System.out.println("Error en raíz cuadrada: " + e.getMessage());
 		}
 
-		// Limpiar buffer
 		scanner.nextLine();
 
-		// Probar longitud de texto
 		try {
 			System.out.print("\nIngrese texto para calcular longitud (o Enter para null): ");
 			String text = scanner.nextLine();
 
-			// Si el usuario no ingresa nada, usamos null para probar la excepción
 			if (text.isEmpty()) {
 				text = null;
 			}
@@ -66,7 +60,6 @@ public class Main {
 			System.out.println("Error en cálculo de longitud: " + e.getMessage());
 		}
 
-		// Probar día de la semana
 		try {
 			System.out.print("\nIngrese índice del día de la semana (0-6): ");
 			int index = scanner.nextInt();
