@@ -69,7 +69,7 @@
     │   └── validation_utils/
     │       ├── Main.java
     │       ├── Utils.java
-    │       └── LoginValidator.java              // NUEVO - Ejercicio015
+    │       └── LoginValidator.java
     │
     ├── java_core/
     │   ├── arrays/
@@ -81,14 +81,16 @@
     │   │   ├── NumberArrayFilter.java
     │   │   ├── RangeProcessor.java
     │   │   ├── SymmetricMatrixChecker.java
-    │   │   ├── ArrayMaxMinFinder.java          // NUEVO - Ejercicio001
-    │   │   └── DynamicArrayInput.java          // NUEVO - Ejercicio001c
+    │   │   ├── ArrayMaxMinFinder.java
+    │   │   └── DynamicArrayInput.java
     │   ├── conditionals/
     │   │   ├── GradeSystem.java
     │   │   ├── MonthDays.java
     │   │   ├── NumberComparisons.java
+    │   │   ├── OddEvenClassifier.java
     │   │   ├── OddEvenFinder.java
-    │   │   └── ThreeNumberSorter.java
+    │   │   ├── ThreeNumberSorter.java
+    │   │   └── DivisibilityChecker.java        // NUEVO
     │   ├── games/
     │   │   ├── DiceGame.java
     │   │   ├── MazeGame.java
@@ -97,8 +99,7 @@
     │   │   ├── RockPaperScissorsGame.java
     │   │   ├── TreasureHuntGame.java
     │   │   ├── WordGuessingGame.java
-    │   │   ├── FizzBuzz.java                   // NUEVO - Ejercicio009
-    │   │   └── NumberGuessingGameEnhanced.java // RENOMBRAR - Ejercicio010
+    │   │   └── FizzBuzz.java
     │   ├── games.tic_tac_toe/
     │   │   ├── EmpateException.java
     │   │   ├── GameBoard.java
@@ -109,14 +110,18 @@
     │   │   ├── Product.java
     │   │   └── UseContainer.java
     │   ├── intermediate/
-    │   │   └── Library_Management_System.java
+    │   │   ├── Library_Management_System.java
+    │   │   └── CompoundInterestCalculator.java
     │   ├── loops/
     │   │   ├── EvenOddSum.java
     │   │   ├── FibonacciGenerator.java
     │   │   ├── MultiplicationTable.java
     │   │   ├── NaturalNumberSum.java
     │   │   ├── NumberPrinter.java
-    │   │   └── SumaMethodsDemo.java
+    │   │   ├── SumaMethodsDemo.java
+    │   │   ├── PatternPrinter.java
+    │   │   ├── MultiplicationWithLoops.java    // NUEVO
+    │   │   └── LoopControlFlow.java           // NUEVO
     │   └── strings/
     │       ├── basic/
     │       │   ├── Basic_Math_Operations.java
@@ -131,8 +136,9 @@
     │       │   ├── String_Search_Methods.java
     │       │   ├── String_User_Input_Comparison.java
     │       │   ├── String_Validation_Comparison.java
-    │       │   ├── CharacterValidator.java     // NUEVO - Unifica 004, 004a, 004b
-    │       │   └── PalindromeChecker.java     // NUEVO - Unifica 011 y 012
+    │       │   ├── CharacterValidator.java
+    │       │   ├── PalindromeChecker.java
+    │       │   └── CharacterSplitter.java      // NUEVO
     │       ├── validation/
     │       │   ├── AnagramChecker.java
     │       │   ├── CreditCardMasker.java
@@ -140,7 +146,8 @@
     │       └── advanced/
     │           ├── PalindromeChecker.java
     │           ├── TextProcessor.java
-    │           └── ReservedWordsChecker.java  // NUEVO - Ejercicio014
+    │           ├── ReservedWordsChecker.java
+    │           └── PrintfFormatter.java        // NUEVO
     │
     ├── java_core_basic/
     │   ├── basic_algorithms/
@@ -154,19 +161,19 @@
     │   │   ├── PrimeNumberFinder.java
     │   │   ├── TeaCalculator.java
     │   │   ├── TimeConverter.java
-    │   │   ├── PrimeNumberChecker.java        // NUEVO - Ejercicio003
-    │   │   └── NumberRangeAnalyzer.java       // NUEVO - Ejercicio002
+    │   │   ├── PrimeNumberChecker.java
+    │   │   └── NumberRangeAnalyzer.java
     │   ├── basic_algorithms.armstrong_numbers/
     │   │   ├── Armstrong.java
     │   │   └── Main.java
     │   ├── basic_operations/
     │   │   ├── Basic_Operations.java
     │   │   ├── NumberValidator.java
-    │   │   └── StatisticsCalculator.java      // NUEVO - Ejercicio013
+    │   │   └── StatisticsCalculator.java
     │   └── practical_applications/
-    │       ├── CaloriesCalculator.java        // NUEVO - Ejercicio005
-    │       ├── TrafficFineCalculator.java     // NUEVO - Ejercicio007
-    │       └── GradeClassifier.java           // NUEVO - Ejercicio008
+    │       ├── CaloriesCalculator.java
+    │       ├── TrafficFineCalculator.java
+    │       └── GradeClassifier.java
     │
     ├── java_core_intermediate/
     │   ├── exercise_Business_Applications/
