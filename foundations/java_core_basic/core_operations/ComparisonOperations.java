@@ -3,10 +3,6 @@ package java_core_basic.core_operations;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * Clase que unifica todas las operaciones de comparación y validación Incluye
- * comparaciones, ordenamiento, clasificaciones, etc.
- */
 public class ComparisonOperations {
 	private static Scanner scanner = MainController.getScanner();
 

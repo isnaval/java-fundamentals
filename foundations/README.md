@@ -90,7 +90,7 @@
     │   │   ├── OddEvenClassifier.java
     │   │   ├── OddEvenFinder.java
     │   │   ├── ThreeNumberSorter.java
-    │   │   └── DivisibilityChecker.java        // NUEVO
+    │   │   └── DivisibilityChecker.java
     │   ├── games/
     │   │   ├── DiceGame.java
     │   │   ├── MazeGame.java
@@ -120,8 +120,8 @@
     │   │   ├── NumberPrinter.java
     │   │   ├── SumaMethodsDemo.java
     │   │   ├── PatternPrinter.java
-    │   │   ├── MultiplicationWithLoops.java    // NUEVO
-    │   │   └── LoopControlFlow.java           // NUEVO
+    │   │   ├── MultiplicationWithLoops.java
+    │   │   └── LoopControlFlow.java
     │   └── strings/
     │       ├── basic/
     │       │   ├── Basic_Math_Operations.java
@@ -138,7 +138,7 @@
     │       │   ├── String_Validation_Comparison.java
     │       │   ├── CharacterValidator.java
     │       │   ├── PalindromeChecker.java
-    │       │   └── CharacterSplitter.java      // NUEVO
+    │       │   └── CharacterSplitter.java
     │       ├── validation/
     │       │   ├── AnagramChecker.java
     │       │   ├── CreditCardMasker.java
@@ -147,7 +147,7 @@
     │           ├── PalindromeChecker.java
     │           ├── TextProcessor.java
     │           ├── ReservedWordsChecker.java
-    │           └── PrintfFormatter.java        // NUEVO
+    │           └── PrintfFormatter.java
     │
     ├── java_core_basic/
     │   ├── basic_algorithms/
@@ -170,10 +170,27 @@
     │   │   ├── Basic_Operations.java
     │   │   ├── NumberValidator.java
     │   │   └── StatisticsCalculator.java
-    │   └── practical_applications/
-    │       ├── CaloriesCalculator.java
-    │       ├── TrafficFineCalculator.java
-    │       └── GradeClassifier.java
+    │   ├── practical_applications/
+    │   │   ├── CaloriesCalculator.java
+    │   │   ├── TrafficFineCalculator.java
+    │   │   └── GradeClassifier.java
+    │   ├── unified_operations/              // ★ SISTEMA UNIFICADO PRINCIPAL
+    │   │   ├── MainController.java          // ← CONTROLADOR MAESTRO
+    │   │   ├── MathOperations.java
+    │   │   ├── ComparisonOperations.java
+    │   │   ├── SequenceOperations.java
+    │   │   ├── DateTimeOperations.java
+    │   │   ├── TextConversionOperations.java
+    │   │   └── InteractiveGames.java
+    │   └── streams/                         // ★ MÓDULO COMPLETO DE STREAMS
+    │       ├── StreamController.java        // ← Controlador de Streams
+    │       ├── StreamBasics.java           // Fundamentos
+    │       ├── StreamNumbers.java          // Operaciones con números
+    │       ├── StreamStrings.java          // Operaciones con strings
+    │       ├── StreamObjects.java          // Trabajo con objetos
+    │       ├── StreamCollections.java      // Colecciones avanzadas
+    │       ├── StreamPerformance.java      // Análisis de rendimiento
+    │       └── StreamChallenges.java       // Desafíos y ejercicios
     │
     ├── java_core_intermediate/
     │   ├── exercise_Business_Applications/
@@ -217,5 +234,4 @@
                 ├── Car.java
                 ├── Person.java
                 └── Student.java
-
 ```
