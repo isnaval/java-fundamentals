@@ -76,6 +76,7 @@
     │   │   ├── ArrayAverageCalculator.java
     │   │   ├── ArrayListBasics.java
     │   │   ├── ArrayManipulator.java
+    │   │   ├── ArrayAdvancedOperations.java     
     │   │   ├── ConditionalArrayFilter.java
     │   │   ├── FlightSeatReservation.java
     │   │   ├── NumberArrayFilter.java
@@ -99,7 +100,9 @@
     │   │   ├── RockPaperScissorsGame.java
     │   │   ├── TreasureHuntGame.java
     │   │   ├── WordGuessingGame.java
-    │   │   └── FizzBuzz.java
+    │   │   ├── FizzBuzz.java
+    │   │   ├── CarRaceGame.java                 
+    │   │   └── WordPointsGame.java              
     │   ├── games.tic_tac_toe/
     │   │   ├── EmpateException.java
     │   │   ├── GameBoard.java
@@ -147,7 +150,8 @@
     │           ├── PalindromeChecker.java
     │           ├── TextProcessor.java
     │           ├── ReservedWordsChecker.java
-    │           └── PrintfFormatter.java
+    │           ├── PrintfFormatter.java
+    │           └── MorseCodeConverter.java        
     │
     ├── java_core_basic/
     │   ├── basic_algorithms/
@@ -174,23 +178,23 @@
     │   │   ├── CaloriesCalculator.java
     │   │   ├── TrafficFineCalculator.java
     │   │   └── GradeClassifier.java
-    │   ├── unified_operations/              // ★ SISTEMA UNIFICADO PRINCIPAL
-    │   │   ├── MainController.java          // ← CONTROLADOR MAESTRO
+    │   ├── unified_operations/              
+    │   │   ├── MainController.java          
     │   │   ├── MathOperations.java
     │   │   ├── ComparisonOperations.java
     │   │   ├── SequenceOperations.java
     │   │   ├── DateTimeOperations.java
     │   │   ├── TextConversionOperations.java
     │   │   └── InteractiveGames.java
-    │   └── streams/                         // ★ MÓDULO COMPLETO DE STREAMS
-    │       ├── StreamController.java        // ← Controlador de Streams
-    │       ├── StreamBasics.java           // Fundamentos
-    │       ├── StreamNumbers.java          // Operaciones con números
-    │       ├── StreamStrings.java          // Operaciones con strings
-    │       ├── StreamObjects.java          // Trabajo con objetos
-    │       ├── StreamCollections.java      // Colecciones avanzadas
-    │       ├── StreamPerformance.java      // Análisis de rendimiento
-    │       └── StreamChallenges.java       // Desafíos y ejercicios
+    │   └── streams/                         
+    │       ├── StreamController.java       
+    │       ├── StreamBasics.java         
+    │       ├── StreamNumbers.java          
+    │       ├── StreamStrings.java         
+    │       ├── StreamObjects.java          
+    │       ├── StreamCollections.java      
+    │       ├── StreamPerformance.java      
+    │       └── StreamChallenges.java       
     │
     ├── java_core_intermediate/
     │   ├── exercise_Business_Applications/
