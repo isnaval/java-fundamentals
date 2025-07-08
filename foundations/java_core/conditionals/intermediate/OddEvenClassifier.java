@@ -1,4 +1,4 @@
-package java_core.conditionals;
+package java_core.conditionals.intermediate;
 
 import java.util.Scanner;
 
