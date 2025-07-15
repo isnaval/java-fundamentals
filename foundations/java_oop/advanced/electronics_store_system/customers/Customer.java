@@ -8,8 +8,16 @@ public class Customer {
 	protected String email;
 	protected String phone;
 	protected String address;
+	protected int age;
 	protected List<String> purchaseHistory;
 	protected double totalSpent;
+
+	public Customer(String name, String email, String phone, int age) {
+		this.name = name;
+		this.email = email;
+		this.phone = phone;
+		this.age = age;
+	}
 
 	public Customer(String name, String email, String phone, String address) {
 		this.name = name;
