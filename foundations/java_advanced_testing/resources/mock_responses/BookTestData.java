@@ -1,6 +1,7 @@
 package java_advanced_testing.resources.mock_responses;
 
 import java_advanced_testing.model.Book;
+import java_advanced_testing.resources.test_data.TestDataConstants;
 
 public class BookTestData {
 	public static String createValidBookResponse() {

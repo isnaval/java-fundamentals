@@ -1,6 +1,7 @@
 package java_advanced_testing.resources.mock_responses;
 
 import java_advanced_testing.model.Employee;
+import java_advanced_testing.resources.test_data.TestDataConstants;
 
 public class EmployeeTestData {
 	public static String createValidEmployeeResponse() {

@@ -20,4 +20,12 @@ public class BookTestData {
 	public static Book createFreeBook() {
 		return new Book("Libro Gratuito", "Autor Público", "978-84-000-0000-0", 0.0);
 	}
+
+	public static Book createBookWithNegativePrice() {
+		return new Book("Precio erroneo del libro", null, null, 0);
+	}
+
+	public static Book createBookWithoutAuthor() {
+		return new Book(null, "Libro sin autor", null, 0);
+	}
 }

@@ -22,4 +22,11 @@ public class TestDataConstants {
 	// Project constants
 	public static final String PROJECT_NAME = "Sistema de Gestión";
 	public static final String PROJECT_DESCRIPTION = "Sistema para gestionar recursos";
+	public static final int PROJECT_DURATION_DAYS = 90;
+
+	// Constantes para Product
+	public static final String PRODUCT_NAME = "Producto Estándar";
+	public static final String PRODUCT_DESCRIPTION = "Producto de prueba";
+	public static final double PRODUCT_PRICE = 49.99;
+	public static final String PRODUCT_SKU = "SKU12345";
 }
