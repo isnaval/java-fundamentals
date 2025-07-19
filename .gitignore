@@ -1,7 +1,13 @@
-"# Compiled class files" 
-"*.class" 
-"# Package Files" 
-"*.jar" 
-"# Logs" 
-"*.log" 
+# Compiled class files
+*.class
+# Package Files
+*.jar
+# Logs
+*.log
 /bin/
+
+# Archivos generados automáticamente por tests
+src/test/java_advanced_testing/resources/output/csv/
+src/test/java_advanced_testing/resources/output/reports/
+src/test/java_advanced_testing/resources/output/test-results/
+src/test/java_advanced_testing/resources/output/validation/
