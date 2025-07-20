@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Practice-Exercises-28a745?style=flat-square" alt="Practice Exercises"/>
 </div>
 
-## 📚 Sobre este Repositorio
+## Sobre este Repositorio
 Este repositorio me ha servido para recordar la lógica y el conocimiento sobre Java. Contiene ejercicios prácticos y ejemplos de código para refrescar conceptos fundamentales. Mi progreso incluye:
 - Nivel básico: Variables, bucles y métodos.
 - Programación Orientada a Objetos (POO): Clases, herencia e interfaces.
@@ -13,7 +13,7 @@ Este repositorio me ha servido para recordar la lógica y el conocimiento sobre 
 - Desarrollé todo en Eclipse IDE for Java Developers (versión 2024-09, 4.33.0), dedicando 3 semanas a pequeños ejercicios diarios.
 - Me apoyé en Claude Sonnet 4 para aclarar dudas y agilizar el aprendizaje. 
 
-## 🎯 Objetivo
+## Objetivo
 
 Mi objetivo ha sido volver a consolidar los conocimientos de codigo y logica que ya habia aprendido pero necesitaba refrescar. 
 - ✅ Ejercicios prácticos paso a paso
@@ -21,7 +21,7 @@ Mi objetivo ha sido volver a consolidar los conocimientos de codigo y logica que
 - ✅ Tests como parte mas olvidada, pasando desde test unitarios, mock, mockito y junit. 
 - ✅ Progresión lógica y consolidación de conceptos
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 Java-Fundamentals-Practice/
@@ -34,7 +34,7 @@ Java-Fundamentals-Practice/
 └── README.md              # Documentación
 ```
 
-## 🛠️ Tecnologías y Herramientas
+## Tecnologías y Herramientas
 
 <div align="center">
   <table>
@@ -68,7 +68,7 @@ Java-Fundamentals-Practice/
   </table>
 </div>
 
-## 🚀 Cómo usar este repositorio
+## Cómo usar este repositorio
 
 ### 1. **Orden recomendado de estudio:**
 ```
@@ -111,13 +111,13 @@ basics → fundamentals → oop-basics → collections-intro → exception-handl
         • Collections Framework<br>
         • Manejo de excepciones<br>
         • Generics básicos<br>
-        • Testing con JUnit y Mockito
+        • Testing con Unitario, Mock, JUnit y Mockito
       </td>
     </tr>
   </table>
 </div>
 
-##  Contribuciones
+## Contribuciones
 
 Este es un repositorio de aprendizaje personal, pero las mejoras y sugerencias son bienvenidas. Notificame si añades algo para aprenderlo
 
