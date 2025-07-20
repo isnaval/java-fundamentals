@@ -75,9 +75,9 @@ java_core_basic → java_core → java_oop → collections → exceptions → ja
 ```
 
 ### 2. **Pasos para ejecutar los ejercicios:**
-1. **Clona el repositorio**:
    ```bash
    git clone https://github.com/isnaval/Java-Fundamentals-Practice.git
+ ```
 
 ### 3. **Requisitos previos:**
 - Java 17 o superior instalado
