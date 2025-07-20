@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/Learning-Path-brightgreen?style=for-the-badge" alt="Learning Path"/>
+
   <img src="https://img.shields.io/badge/Practice-Exercises-blue?style=for-the-badge" alt="Practice Exercises"/>
 </div>
 
