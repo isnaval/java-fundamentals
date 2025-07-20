@@ -126,9 +126,3 @@ This is a personal learning repository, but improvements and suggestions are wel
 This project is available as open source under the [MIT License](LICENSE).
 
 ---
-
-## Licencia
-
-Este proyecto está disponible como código abierto bajo la [Licencia MIT](LICENSE).
-
----
