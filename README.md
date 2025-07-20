@@ -85,7 +85,7 @@ basics → fundamentals → oop-basics → collections-intro → exception-handl
 - IDE recomendado (Eclipse, IntelliJ IDEA, VS Code) yo he utilizado Eclipse
 - Conocimientos básicos previos de programación (recomendado)
 
-## 📖 Conceptos cubiertos
+## Conceptos cubiertos
 
 <div align="center">
   <table>
@@ -121,7 +121,7 @@ basics → fundamentals → oop-basics → collections-intro → exception-handl
 
 Este es un repositorio de aprendizaje personal, pero las mejoras y sugerencias son bienvenidas. Notificame si añades algo para aprenderlo
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está disponible como código abierto bajo la [Licencia MIT](LICENSE).
 
