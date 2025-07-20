@@ -67,6 +67,7 @@ Java-Fundamentals-Practice/
     </tr>
   </table>
 </div>
+
 ## 🚀 Cómo usar este repositorio
 
 ### 1. **Orden recomendado de estudio:**
