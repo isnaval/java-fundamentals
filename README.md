@@ -1,9 +1,10 @@
 # Java Fundamentals Practice
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java"/>
-
-  <img src="https://img.shields.io/badge/Practice-Exercises-blue?style=for-the-badge" alt="Practice Exercises"/>
+  <img src="https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Practice-Exercises-28a745?style=for-the-badge" alt="Practice Exercises"/>
+  <img src="https://img.shields.io/github/license/usuario/repo?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/github/workflow/status/usuario/repo/Java%20CI?style=for-the-badge" alt="Build Status"/>
 </div>
 
 ## 📚 Sobre este repositorio
