@@ -71,7 +71,7 @@ Java-Fundamentals-Practice/
 
 ### 1. **Orden recomendado de estudio:**
 ```
-java_core_basic → java_core → java_oop → collections → exceptions → java_advanced_testing
+basics → fundamentals → oop-basics → collections-intro → exception-handling → testing-basics
 ```
 
 ### 2. **Pasos para ejecutar los ejercicios:**
@@ -86,29 +86,39 @@ java_core_basic → java_core → java_oop → collections → exceptions → ja
 
 ## 📖 Conceptos cubiertos
 
-### 🔰 **Nivel Básico**
-- Variables y tipos de datos primitivos
-- Operadores aritméticos, lógicos y de comparación
-- Estructuras de control (if, while, for)
-- Métodos y parámetros
+<div align="center">
+  <table>
+    <tr>
+      <th> Nivel Básico</th>
+      <th> Nivel Intermedio</th>
+      <th> Nivel Avanzado</th>
+    </tr>
+    <tr>
+      <td>
+        • Variables y tipos primitivos<br>
+        • Operadores aritméticos y lógicos<br>
+        • Estructuras de control<br>
+        • Métodos y parámetros
+      </td>
+      <td>
+        • Programación Orientada a Objetos<br>
+        • Clases, objetos, constructores<br>
+        • Herencia y polimorfismo<br>
+        • Interfaces y clases abstractas
+      </td>
+      <td>
+        • Collections Framework<br>
+        • Manejo de excepciones<br>
+        • Generics básicos<br>
+        • Testing con JUnit y Mockito
+      </td>
+    </tr>
+  </table>
+</div>
 
-### 🔶 **Nivel Intermedio**
-- Programación Orientada a Objetos
-- Clases, objetos, constructores
-- Herencia y polimorfismo
-- Interfaces y clases abstractas
-
-### 🔴 **Nivel Avanzado**
-- Collections Framework
-- Manejo de excepciones
-- Generics básicos
-- Testing con JUnit y Mockito
-
-## 🤝 Contribuciones
+##  Contribuciones
 
 Este es un repositorio de aprendizaje personal, pero las mejoras y sugerencias son bienvenidas. Notificame si añades algo para aprenderlo
-
-
 
 ## 📄 Licencia
 
