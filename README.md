@@ -28,9 +28,9 @@ Java-Fundamentals-Practice/
 ├── basics/                # Basic fundamentals: variables, loops, methods
 ├── fundamentals/          # Essential concepts: input/output, strings
 ├── oop-basics/            # Basic OOP: classes, inheritance, interfaces
-├── collections-intro/     # Introduction to collections: lists, maps
-├── exception-handling/    # Basic exception handling
-├── testing-basics/        # Unit tests and mocks with JUnit and Mockito
+├── collections/           # Introduction to collections: lists, maps
+├── exception/             # Basic exception handling
+├── testing/               # Unit tests and mocks with JUnit and Mockito
 └── README.md              # Documentation
 ```
 
