@@ -1,21 +1,56 @@
-# Portfolio de Desarrollo Fullstack
+# Java Fundamentals Practice
 
 <div align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring"/>
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular"/>
+  <img src="https://img.shields.io/badge/Learning-Path-brightgreen?style=for-the-badge" alt="Learning Path"/>
+  <img src="https://img.shields.io/badge/Practice-Exercises-blue?style=for-the-badge" alt="Practice Exercises"/>
 </div>
 
-## Estructura del Repositorio
-- Fundamentos (foundations)
-- Backend (próximamente)
-- Frontend (próximamente)
-- Proyectos Fullstack (próximamente)
+## 📚 Sobre este repositorio
 
-## Tecnologías y Herramientas
+Repositorio dedicado al **aprendizaje progresivo de Java** desde conceptos básicos hasta temas avanzados. Incluye ejercicios prácticos, ejemplos de código y tests para consolidar el conocimiento.
+
+## 🎯 Objetivo
+
+Proporcionar una ruta de aprendizaje estructurada para dominar los fundamentos de Java a través de:
+- ✅ Ejercicios prácticos paso a paso
+- ✅ Ejemplos comentados y explicados
+- ✅ Tests unitarios para validar el aprendizaje
+- ✅ Progresión lógica de conceptos
+
+## 📂 Estructura del Repositorio
+
+```
+📦 java-fundamentals-practice
+├── 📁 java_core_basic/          # Fundamentos básicos de Java
+│   ├── variables y tipos de datos
+│   ├── operadores
+│   ├── estructuras de control
+│   └── métodos básicos
+├── 📁 java_core/               # Conceptos core del lenguaje
+│   ├── arrays y strings
+│   ├── clases y objetos básicos
+│   └── manejo de entrada/salida
+├── 📁 java_oop/               # Programación Orientada a Objetos
+│   ├── encapsulación
+│   ├── herencia
+│   ├── polimorfismo
+│   └── abstracción
+├── 📁 collections/            # Estructuras de datos en Java
+│   ├── List, Set, Map
+│   ├── iteradores
+│   └── algoritmos de ordenación
+├── 📁 exceptions/             # Manejo de excepciones
+│   ├── try-catch-finally
+│   ├── excepciones personalizadas
+│   └── mejores prácticas
+└── 📁 java_advanced_testing/  # Testing avanzado
+    ├── JUnit 5
+    ├── Mockito
+    └── test-driven development
+```
+
+## 🛠️ Tecnologías y Herramientas
 
 <div align="center">
   <table>
@@ -24,84 +59,92 @@
       <th>Tecnologías</th>
     </tr>
     <tr>
-      <td>Lenguajes de Programación</td>
+      <td><strong>Lenguaje Principal</strong></td>
       <td>
         <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java"/>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
-        <img src="https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=sass&logoColor=white" alt="SASS"/>
-        <img src="https://img.shields.io/badge/LESS-1D365D?style=flat-square&logo=less&logoColor=white" alt="LESS"/>
+        <img src="https://img.shields.io/badge/Java_17+-007396?style=flat-square&logo=java&logoColor=white" alt="Java 17+"/>
       </td>
     </tr>
     <tr>
-      <td>Frameworks/Librerías Backend</td>
+      <td><strong>Testing</strong></td>
       <td>
-        <img src="https://img.shields.io/badge/Spring_Framework-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Framework"/>
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
-        <img src="https://img.shields.io/badge/Spring_REST-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring REST"/>
-        <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="Hibernate"/>
-        <img src="https://img.shields.io/badge/JDBC-007396?style=flat-square&logo=java&logoColor=white" alt="JDBC"/>
         <img src="https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit"/>
         <img src="https://img.shields.io/badge/Mockito-78A641?style=flat-square&logo=mockito&logoColor=white" alt="Mockito"/>
-        <img src="https://img.shields.io/badge/Lombok-A81C7D?style=flat-square&logo=lombok&logoColor=white" alt="Lombok"/>
-        <img src="https://img.shields.io/badge/MapStruct-1565C0?style=flat-square&logo=java&logoColor=white" alt="MapStruct"/>
-        <img src="https://img.shields.io/badge/EasyRandom-4EA94B?style=flat-square&logo=java&logoColor=white" alt="EasyRandom"/>
       </td>
     </tr>
     <tr>
-      <td>Frameworks/Librerías Frontend</td>
-      <td>
-        <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular"/>
-        <img src="https://img.shields.io/badge/RxJS-B7178C?style=flat-square&logo=reactivex&logoColor=white" alt="RxJS"/>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
-        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/>
-        <img src="https://img.shields.io/badge/DOM-5586A4?style=flat-square&logo=html5&logoColor=white" alt="DOM"/>
-        <img src="https://img.shields.io/badge/Fetch_API-0769AD?style=flat-square&logo=javascript&logoColor=white" alt="Fetch API"/>
-      </td>
-    </tr>
-    <tr>
-      <td>Bases de datos</td>
-      <td>
-        <img src="https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
-        <img src="https://img.shields.io/badge/H2-0000BB?style=flat-square&logo=h2&logoColor=white" alt="H2 Database"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
-        <img src="https://img.shields.io/badge/Cassandra-1287B1?style=flat-square&logo=apache-cassandra&logoColor=white" alt="Cassandra"/>
-        <img src="https://img.shields.io/badge/CouchDB-E42528?style=flat-square&logo=apache-couchdb&logoColor=white" alt="CouchDB"/>
-        <img src="https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white" alt="Neo4j"/>
-      </td>
-    </tr>
-    <tr>
-      <td>Herramientas de Desarrollo</td>
+      <td><strong>Herramientas</strong></td>
       <td>
         <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
         <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white" alt="Maven"/>
         <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
         <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white" alt="Eclipse"/>
-        <img src="https://img.shields.io/badge/Eclipse_STS-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Eclipse STS"/>
-        <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman"/>
-        <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="Swagger"/>
-        <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white" alt="Kafka"/>
-        <img src="https://img.shields.io/badge/JavaDoc-007396?style=flat-square&logo=java&logoColor=white" alt="JavaDoc"/>
-      </td>
-    </tr>
-    <tr>
-      <td>Tecnologías de Red</td>
-      <td>
-        <img src="https://img.shields.io/badge/IPv4-0078D4?style=flat-square&logo=internetexplorer&logoColor=white" alt="IPv4"/>
-        <img src="https://img.shields.io/badge/IPv6-0078D4?style=flat-square&logo=internetexplorer&logoColor=white" alt="IPv6"/>
-        <img src="https://img.shields.io/badge/DNS-FFA116?style=flat-square&logo=internetexplorer&logoColor=white" alt="DNS"/>
-        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white" alt="JWT"/>
       </td>
     </tr>
   </table>
 </div>
 
+## 🚀 Cómo usar este repositorio
 
-## Licencia
-Este proyecto está disponible como código abierto bajo la licencia MIT.
+### 1. **Orden recomendado de estudio:**
+```
+java_core_basic → java_core → java_oop → collections → exceptions → java_advanced_testing
+```
+
+### 2. **Para cada módulo:**
+- 📖 Lee los comentarios en el código
+- ⚡ Ejecuta los ejemplos
+- 🧪 Ejecuta los tests incluidos
+- 💡 Modifica el código para experimentar
+
+### 3. **Requisitos previos:**
+- Java 17 o superior instalado
+- IDE recomendado (Eclipse, IntelliJ IDEA, VS Code)
+- Conocimientos básicos de programación (recomendado)
+
+## 📖 Conceptos cubiertos
+
+### 🔰 **Nivel Básico**
+- Variables y tipos de datos primitivos
+- Operadores aritméticos, lógicos y de comparación
+- Estructuras de control (if, while, for)
+- Métodos y parámetros
+
+### 🔶 **Nivel Intermedio**
+- Programación Orientada a Objetos
+- Clases, objetos, constructores
+- Herencia y polimorfismo
+- Interfaces y clases abstractas
+
+### 🔴 **Nivel Avanzado**
+- Collections Framework
+- Manejo de excepciones
+- Generics básicos
+- Testing con JUnit y Mockito
+
+## 🤝 Contribuciones
+
+Este es un repositorio de aprendizaje personal, pero las mejoras y sugerencias son bienvenidas:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/mejora-ejercicios`)
+3. Commit tus cambios (`git commit -m 'Añadir nuevos ejercicios de arrays'`)
+4. Push a la rama (`git push origin feature/mejora-ejercicios`)
+5. Abre un Pull Request
+
+## 📝 Notas importantes
+
+- **Enfoque pedagógico**: Cada ejercicio está diseñado para enseñar un concepto específico
+- **Progresión gradual**: Los conceptos se introducen de forma incremental
+- **Práctica activa**: Se fomenta la experimentación y modificación del código
+- **Testing incluido**: Cada módulo incluye tests para validar el aprendizaje
+
+## 📄 Licencia
+
+Este proyecto está disponible como código abierto bajo la [Licencia MIT](LICENSE).
+
+---
+
+<div align="center">
+  <strong>🚀 ¡Feliz aprendizaje de Java! 🚀</strong>
+</div>
