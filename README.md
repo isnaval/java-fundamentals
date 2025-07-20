@@ -24,7 +24,14 @@ Mi objetivo ha sido volver a consolidar los conocimientos de codigo y logica que
 ## 📂 Estructura del Repositorio
 
 ```
-pendiente de desarrollar
+Java-Fundamentals-Practice/
+├── basics/                # Fundamentos básicos: variables, bucles, métodos
+├── fundamentals/          # Conceptos esenciales: entrada/salida, strings
+├── oop-basics/            # POO básica: clases, herencia, interfaces
+├── collections-intro/     # Introducción a colecciones: listas, mapas
+├── exception-handling/    # Manejo básico de excepciones
+├── testing-basics/        # Tests unitarios y mocks con JUnit y Mockito
+└── README.md              # Documentación
 ```
 
 ## 🛠️ Tecnologías y Herramientas
