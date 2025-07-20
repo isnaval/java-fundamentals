@@ -1,4 +1,4 @@
-# Java Fundamentals Practice
+# Java Fundamentals 
 
 <div align="center">
   <img src="https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java"/>
